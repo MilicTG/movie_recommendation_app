@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../../core/constants.dart';
 import '../../../core/widgets/primary_button.dart';
 
 class LandingScreen extends StatelessWidget {
@@ -30,6 +31,9 @@ class LandingScreen extends StatelessWidget {
             PrimaryButton(
               onPressed: nextPage,
               text: 'Get Started',
+            ),
+            const SizedBox(
+              height: kMediumSpacing,
             ),
           ],
         ),
