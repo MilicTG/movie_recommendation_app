@@ -22,7 +22,7 @@ class LandingScreen extends StatelessWidget {
           children: [
             Text(
               'Let\'s find a movie',
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: Theme.of(context).textTheme.headlineSmall,
               textAlign: TextAlign.center,
             ),
             const Spacer(),
